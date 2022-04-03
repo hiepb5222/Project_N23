@@ -21,7 +21,7 @@ public class LoginActivity extends AppCompatActivity {
     private Button buttonLg;
     private TextView signuptv;
     private String Username ="admin";
-    private String Password ="123";
+    private String Password ="12345";
 
 
     @Override
