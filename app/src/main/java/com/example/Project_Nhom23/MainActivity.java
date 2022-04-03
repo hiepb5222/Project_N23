@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
 
         navigationView = findViewById(R.id.bottom_nav);
         view_pape2r =findViewById(R.id.view_pape2r);
-        setUpViewPager();
+//        setUpViewPager();
 
         getSupportActionBar().hide();
 
@@ -56,30 +56,30 @@ public class MainActivity extends AppCompatActivity {
         });
 
     }
-    private void setUpViewPager(){
-        viewPager = new ViewPager(this);
-        view_pape2r.setAdapter(viewPager);
-        view_pape2r.registerOnPageChangeCallback(new ViewPager2.OnPageChangeCallback() {
-            @Override
-            public void onPageSelected(int position) {
-                super.onPageSelected(position);
-                switch (position){
-                    case 0:
-                        navigationView.getMenu().findItem(R.id.action_home).setChecked(true);
-                        break;
-                    case 1:
-                        navigationView.getMenu().findItem(R.id.action_wallet).setChecked(true);
-                        break;
-                    case 2:
-                        navigationView.getMenu().findItem(R.id.action_chart).setChecked(true);
-                        break;
-                    case 3:
-                        navigationView.getMenu().findItem(R.id.action_more).setChecked(true);
-                        break;
-                }
-            }
-        });
-        }
+//    private void setUpViewPager(){
+//        viewPager = new ViewPager(this);
+//        view_pape2r.setAdapter(viewPager);
+//        view_pape2r.registerOnPageChangeCallback(new ViewPager2.OnPageChangeCallback() {
+//            @Override
+//            public void onPageSelected(int position) {
+//                super.onPageSelected(position);
+//                switch (position){
+//                    case 0:
+//                        navigationView.getMenu().findItem(R.id.action_home).setChecked(true);
+//                        break;
+//                    case 1:
+//                        navigationView.getMenu().findItem(R.id.action_wallet).setChecked(true);
+//                        break;
+//                    case 2:
+//                        navigationView.getMenu().findItem(R.id.action_chart).setChecked(true);
+//                        break;
+//                    case 3:
+//                        navigationView.getMenu().findItem(R.id.action_more).setChecked(true);
+//                        break;
+//                }
+//            }
+//        });
+//        }
 
 }
 
