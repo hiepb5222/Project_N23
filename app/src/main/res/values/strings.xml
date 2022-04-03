@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Quản Lý Chi Tiêu Cá Nhân</string>
+    <string name="act_home">Tổng Quan</string>
+    <string name="act_wallet">Tài Khoản</string>
+    <string name="act_chart">Thống kê</string>
+    <string name="act_more">Khác</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
