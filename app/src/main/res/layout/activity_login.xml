@@ -83,12 +83,13 @@
             <Button
                 android:id="@+id/buttonLogin"
                 style="@style/Button1"
-                android:layout_width="364dp"
+
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="16dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginRight="16dp"
-                android:ems="17"
+                android:ems="22"
                 android:gravity="center"
                 android:text="Đăng Nhập" />
 
